@@ -6,6 +6,7 @@ node -v
 npm -v
 gem install rails -v 8.0.1
 bundle install
+chmod +x bin/*
 bundle exec rails assets:precompile
 bundle exec rails assets:clean
 
