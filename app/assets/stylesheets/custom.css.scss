@@ -1,0 +1,198 @@
+/* app/assets/stylesheets/custom.css */
+
+/* Global Styles */
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fff3b0);
+    /* Diagonal gradient with pink, peach, and yellow */
+    font-family: 'Poppins', sans-serif;
+    /* Modern font */
+    color: #333;
+    /* Dark text color */
+    min-height: 100vh;
+    /* Ensure gradient covers the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dancing Script', cursive;
+    /* Cursive font for headings */
+    color: #ff6f61;
+    /* Light pink color for headings */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow for readability */
+    font-weight: bold;
+}
+
+#indextitle {
+    font-family: 'Dancing Script', cursive;
+    /* Cursive font for headings */
+    color: #fff;
+    /* White text for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Add shadow for readability */
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    /* Semi-transparent white */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ff6f61 !important;
+    /* Light pink color for text */
+}
+
+.navbar-text {
+    color: #ff6f61;
+    /* Light pink color for text */
+}
+
+.navbar-toggler {
+    border-color: black !important;
+    /* Optional: changes the border color */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+    /* Makes the icon black */
+}
+
+/* Table Styles */
+.table {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    background-color: #ff6f61;
+    /* Light pink color */
+    color: #fff;
+    /* White text */
+}
+
+.table tbody tr:hover {
+    background-color: rgba(255, 111, 97, 0.1);
+    /* Light pink hover effect */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ff6f61;
+    /* Light pink color */
+    border-color: #ff6f61;
+}
+
+.btn-primary:hover {
+    background-color: #ff4a3d;
+    /* Darker pink color */
+    border-color: #ff4a3d;
+}
+
+.btn-info {
+    background-color: #ff9a9e;
+    /* Light pink color */
+    border-color: #ff9a9e;
+}
+
+.btn-info:hover {
+    background-color: #ff7f84;
+    /* Darker pink color */
+    border-color: #ff7f84;
+}
+
+.btn-secondary {
+    background-color: #fad0c4;
+    /* Soft peach color */
+    border-color: #fad0c4;
+    color: #333;
+    /* Dark text color */
+}
+
+.btn-secondary:hover {
+    background-color: #f8c0b0;
+    /* Darker peach color */
+    border-color: #f8c0b0;
+}
+
+/* Card Layout for Details Page */
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.card img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #333;
+    /* Dark text color */
+}
+
+.card strong {
+    color: #ff6f61;
+    /* Light pink color */
+}
+
+.card h1,
+.card h2,
+.card h3 {
+    color: #ff6f61;
+    /* Light pink color for headings */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow for readability */
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    display: none;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #ff6f61;
+    /* Light pink color */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Improve Readability of Cocktail Drink Titles */
+.cocktail-title {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ff6f61;
+    /* Light pink color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow for readability */
+}
