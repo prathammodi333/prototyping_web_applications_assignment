@@ -2,7 +2,7 @@
   <h1 class="text-center mb-4" id = "indextitle">Cocktail Drinks</h1>
 
   <%= form_tag(drinks_path, method: :get, class: "mb-4 text-center") do %>
-    <%= label_tag :lookingfor, "Search by exact name:", class: "form-label" %>
+    <%= label_tag :lookingfor, "Search by letter:", class: "form-label" %>
     <%= text_field_tag :lookingfor, params[:lookingfor], placeholder: "a", class: "form-control d-inline-block w-auto" %>
   <%= submit_tag "Search", class: "btn btn-primary mt-2" %>
   <% end %>
